@@ -1,0 +1,29 @@
+{
+  "name": "ahan_online_exam",
+  "version": "1.0.0",
+  "description": "express project for exam solution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clamores/AhanOnline_exam.git"
+  },
+  "keywords": [
+    "exam",
+    "ahan_online",
+    "express",
+    "nodejs"
+  ],
+  "author": "Hossein Safaverdi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clamores/AhanOnline_exam/issues"
+  },
+  "homepage": "https://github.com/clamores/AhanOnline_exam#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
