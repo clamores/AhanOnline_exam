@@ -1,11 +1,11 @@
 ﻿# AhanOnline_exam
 
-for installing node modules:
+## installing node modules:
 ```
 $ npm install
 ```
 
-for run app:
+### run app:
 ```
 $ npm start
 ```
