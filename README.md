@@ -1,6 +1,6 @@
 ﻿# AhanOnline_exam
 
-### installing node modules:
+### install node modules:
 ```
 $ npm install
 ```
