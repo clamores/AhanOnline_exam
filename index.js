@@ -56,14 +56,14 @@ app.get('/json/set', (req, res) => {
         phone: "+989202026400"
     };
     //save my info to a json file
-    fs.writeFileSync('./json/info.json', JSON.stringify(info));
+    fs.writeFileSync('./info.json', JSON.stringify(info));
     //return response
     return res.send('json file is created!')
 })
 
 app.get('/json/get', (req, res) => {
     //read json file and parse it
-    const info = JSON.parse(fs.readFileSync('./json/info.json'))
+    const info = JSON.parse(fs.readFileSync('./info.json'))
     //print info to console every second until 10 seconds
     let print_info = setInterval(() => console.log(info), 1000)
     setTimeout(() => {
